@@ -6,10 +6,8 @@ int main()
 {
     int n,i,k,j,p;
     float pivot, term, a[10][20];
-    
     printf("Enter Dimension of System of equations\n");
     scanf("%d",&n);
-    
     printf("Enter coefficients Matrix\n");
     for(i = 0; i < n; i++)
         for(j = 0; j < n; j++)
@@ -40,7 +38,7 @@ int main()
             }
         }
     }
-    
+
     printf("Matrix Inverse is:\n");
     for(i = 0; i < n; i++)
     {
@@ -48,6 +46,5 @@ int main()
             printf("%f\t", a[i][j]);
         printf("\n");
     }
-    
-    return 0;
+      return 0;
 }
